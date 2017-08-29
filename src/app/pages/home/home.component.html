@@ -1,0 +1,9 @@
+<section>
+  <div class="product-items" *ngFor="let p of products">
+    <h3>{{p.name}}</h3>
+    <p>{{p.description}}</p>
+    <img [src]="p.imgUrl" alt="product name">
+    <p>price: {{p.price | currency : 'Inr'}}</p>
+    <a [routerLink]="['details', p.id]">view details</a>
+  </div>
+</section>

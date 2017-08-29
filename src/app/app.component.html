@@ -1,0 +1,27 @@
+<header id="header">
+  <h2>Shopping Cart</h2>
+  <nav>
+    <ul>
+      <li routerLinkActive="activeItem" [routerLinkActiveOptions]="{exact:true}">
+        <a routerLink="/">Home</a>
+      </li>
+      <li routerLinkActive="activeItem">
+        <a routerLink="/about">About</a>
+      </li>
+      <li routerLinkActive="activeItem">
+        <a routerLink="/autocomplete">Autocomplete</a>
+      </li>
+      <li routerLinkActive="activeItem">
+        <a routerLink="/addproduct">AddProduct</a>
+      </li>
+      <li routerLinkActive="activeItem">
+        <a routerLink="/animation">Animation</a>
+      </li>
+      <li routerLinkActive="activeItem">
+        <button (click)="btnOnClick();">Login</button>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<router-outlet></router-outlet>

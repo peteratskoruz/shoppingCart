@@ -1,0 +1,25 @@
+<div>
+  <h2>Add Product</h2>
+
+  <form [formGroup]= "myProductForm" (ngSubmit)="onFormSubmit()">
+    <div>
+      <label for="">Name</label>
+      <input type="text" formControlName="name">
+    </div><br>
+    <div>
+      <label for="">Description</label>
+      <textarea rows="10" cols="30" formControlName="description"></textarea>
+    </div><br>
+    <div>
+      <label for="">Price</label>
+      <input type="number" formControlName="price">
+    </div><br>
+    <div>
+      <label for="">ImageUrl</label>
+      <input type="text" formControlName="imgUrl">
+    </div><br>
+    <div>
+      <input type="submit" value="AddProduct">
+    </div><br>
+  </form>
+</div>

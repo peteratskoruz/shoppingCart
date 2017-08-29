@@ -1,0 +1,6 @@
+<div *ngIf="product" id="detailsProduct">
+  <h2>{{product.name}}</h2>
+  <h3>{{product.description}}</h3>
+  <img [src]="product.imgUrl" [alt]="product.name">
+  <p>{{product.price | currency : "INR"}}</p>
+</div>

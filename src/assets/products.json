@@ -1,0 +1,26 @@
+[
+  {
+    "name":"Honor",
+    "description":"Mobile from Honor",
+    "imgUrl":"http://img1.lesnumeriques.com/optim/produits/1117/32605/honor-5c_4b1a2efd3e28c2d5__450_400.jpg",
+    "price":10000
+  },
+  {
+    "name":"Asus",
+    "description":"Mobile from Asus",
+    "imgUrl":"http://image.priceprice.k-img.com/global/images/product/mobilephones/ASUS_Zenfone2_Laser_ZE550KL/ASUS_Zenfone2_Laser_ZE550KL_L_1.jpg",
+    "price":16000
+  },
+  {
+    "name":"Samsung",
+    "description":"Mobile from Samsung",
+    "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7A2sVhx7P0k1VEMuWlGa6wvFugoroXRMTlojzXr3PCvgXRVIR-w",
+    "price":7000
+  },
+  {
+    "name":"Nokia",
+    "description":"Mobile from Nokia",
+    "imgUrl":"http://cdn2.gsmarena.com/vv/bigpic/no1100.gif",
+    "price":2500
+  }
+]

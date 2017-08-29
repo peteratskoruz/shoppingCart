@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{margin: 0;}
+
+header#header{background: #efefef; padding: 10px 15px;margin-bottom: 20px;}
+
+header#header h2{margin-top: 0;}
+
+header#header ul{margin-bottom: 0;padding-left: 0;}
+
+header#header ul li{display:inline-block;list-style:none;}
+
+header#header ul li.activeItem a  { color: #f5943d;}
+
+section .product-items{display: inline-block ;width: 230px;border: 1px solid #969494;padding: 15px;margin-right: 10px;
+    color: #1f1c1c;}
+
+section .product-items h3{margin-top: 0;}
+
+section .product-items p{margin-bottom: 5px;}
+
+section .product-items img{width: 100%;height: 190px;}
